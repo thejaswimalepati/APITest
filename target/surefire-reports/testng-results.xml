@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="9538" started-at="2021-03-07T12:32:02 GMT" finished-at="2021-03-07T12:32:12 GMT">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="9538" started-at="2021-03-07T12:32:02 GMT" finished-at="2021-03-07T12:32:12 GMT">
+      <class name="ApiTest.PostRequest">
+        <test-method status="PASS" signature="PostData()[pri:0, instance:ApiTest.PostRequest@1d082e88]" name="PostData" is-config="true" duration-ms="1066" started-at="2021-03-07T12:32:02 GMT" finished-at="2021-03-07T12:32:03 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PostData -->
+        <test-method status="PASS" signature="testPost()[pri:0, instance:ApiTest.PostRequest@1d082e88]" name="testPost" duration-ms="8196" started-at="2021-03-07T12:32:03 GMT" finished-at="2021-03-07T12:32:12 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPost -->
+      </class> <!-- ApiTest.PostRequest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
