@@ -89,7 +89,7 @@
             <suiteXmlFile>testng.xml</suiteXmlFile>
           </suiteXmlFiles>
         </configuration>
-         j
+         
       </plugin>
       </plugins>
       </build>
