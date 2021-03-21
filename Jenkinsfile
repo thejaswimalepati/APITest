@@ -26,9 +26,10 @@ pipeline{
     
     post{
         always{
-            
-            emailext body: 'REST Assured', 
-            subject: 'API_Test_Result', 
+            emailext attachLog: true,
+            body: 'REST Assured', 
+            replyTo: 'tejaswimalepati92@gmail.com', 
+            subject: 'API_Test_Result',
             to: 'tejaswimalepati92@gmail.com'
             
         }
